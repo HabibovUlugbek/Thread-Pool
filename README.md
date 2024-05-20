@@ -10,7 +10,7 @@ A thread pool is a software design pattern that allows for the efficient managem
 
 In this example, we create a simple thread pool in Go that allows us to execute multiple tasks concurrently. The thread pool is implemented using goroutines and channels.
 
-path of file is ./go/simple/main.go
+path of file is `./go/simple/main.go`
 
 You can run the example by executing the following command:
 
@@ -24,7 +24,7 @@ Main idea is to create a pool of workers and a channel to send tasks to the work
 
 In this example, we create a more complex thread pool in Go that allows us to execute multiple tasks concurrently. The thread pool is implemented using goroutines, channels and mutexes to synchronize access to shared resources. We also introduce a time-consuming task to simulate real-world scenarios where tasks may take different amounts of time to complete
 
-path of file is ./go/complex/main.go
+path of file is `./go/complex/main.go`
 
 You can run the example by executing the following command:
 
@@ -38,10 +38,10 @@ Main idea here is just creating time consuming task and demonstrating all worker
 
 #### LIBUV Thread Pool
 
-In this example, we use the LIBUV syncchronous and asynchronous functions to demonstrate how the thread pool works in JavaScript. LIBUV is a C library that provides event-driven programming and asynchronous I/O support for Node.js.And there is UV_THREADPOOL_SIZE environment variable to set the size of thread pool.
+In this example, we use the LIBUV syncchronous and asynchronous functions to demonstrate how the thread pool works in JavaScript. LIBUV is a C library that provides event-driven programming and asynchronous I/O support for Node.js.And there is `UV_THREADPOOL_SIZE` environment variable to set the size of thread pool.
 Spoiler: It is 4 by default.
 
-sync.js and async.js files are in ./javascript/libuv folder.
+`sync.js` and `async.js` files are in `./javascript/libuv` folder.
 
 You can run the example by executing the following command:
 
@@ -53,7 +53,7 @@ node ./javascript/libuv/sync.js
 node ./javascript/libuv/async.js
 ```
 
-Main idea is to show how the thread pool works in JavaScript and how to use the LIBUV library to perform synchronous and asynchronous operations.
+Main idea is to show how the thread pool works in JavaScript and how to use the `LIBUV` library to perform synchronous and asynchronous operations.
 
 #### Node.js with Worker Modules
 
